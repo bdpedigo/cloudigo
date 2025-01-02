@@ -1,7 +1,7 @@
 from kubernetes import client, config
 
 
-def get_replicas_on_node(namespace, pod_label_selector):
+def get_replicas_on_node(namespace="default", pod_label_selector=None):
     """
     Count the number of pod replicas running on a specific node in a Kubernetes cluster.
 

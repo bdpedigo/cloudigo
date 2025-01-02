@@ -1,6 +1,8 @@
 [project]
 authors = [{ name = "Ben Pedigo", email = "benjamindpedigo@gmail.com" }]
-dependencies = []
+dependencies = [
+    "kubernetes>=31.0.0",
+]
 description = "Utils for cloud computing"
 name = "cloudigo"
 readme = "README.md"
